@@ -1,0 +1,8 @@
+<h1>Crime Data: <small>Yearly {{typeOfCrime}}
+    </small></h1>
+<form>
+    <div class="form-group">
+        <select class="form-control" ng-options="type for type in typeSelection" ng-model="typeOfCrime" ng-change="fetchData()">
+        </select>
+    </div>
+</form>
